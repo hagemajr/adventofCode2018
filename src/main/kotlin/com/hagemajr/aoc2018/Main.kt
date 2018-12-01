@@ -5,7 +5,12 @@ import java.io.File
 
 
 fun main(args: Array<String>) {
-
-    print(Day1().readSampleData())
-
+    println("Day 1:")
+    println("===============")
+    with(Day1("src/main/resources/20181201.txt")){
+        readSampleData()
+        println("First Frequency is : ${calculateFirstFrequency()}")
+        println("First Common Frequency is: ${findSecondCommonFrequency()}")
+    }
+    println("===============")
 }
