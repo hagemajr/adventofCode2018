@@ -26,20 +26,17 @@ class Day2(private val fileName: String) {
         var diff: Int
         var idx = -1
         boxIds.forEach { i ->
-            boxIds.forEach loop@{ j ->
+            boxIds.filter { it != i }.forEach loop@{ j ->
                 diff = 0
-                if (i != j) {
-                    println("Comparing $i and $j")
-                    j.forEachIndexed { index, _ ->
-                        if (i[index] != j[index]) {
-                            diff += 1
-                            idx = index
-                        }
+                j.forEachIndexed { index, _ ->
+                    if (i[index] != j[index]) {
+                        diff += 1
+                        idx = index
                         if (diff > 1)
                             return@loop
                     }
-                    return i.filterIndexed { index, _ -> index != idx }
                 }
+                return i.filterIndexed { index, _ -> index != idx }
             }
         }
         return null
