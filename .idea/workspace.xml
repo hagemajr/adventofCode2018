@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f076d09-8ff8-4bb2-bac9-4f1b68099baf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/hagemajr/aoc2018/dailyChallenges/20181202.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/hagemajr/aoc2018/dailyChallenges/20181202.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/hagemajr/aoc2018/dailyChallenges/20181202.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+            <state relative-caret-position="315">
+              <caret line="31" column="46" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -137,7 +136,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543773037299" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543773356536" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -192,7 +191,7 @@
       <updated>1543642594978</updated>
       <workItem from="1543642599600" duration="2530000" />
       <workItem from="1543685168032" duration="2675000" />
-      <workItem from="1543769671597" duration="3361000" />
+      <workItem from="1543769671597" duration="3677000" />
     </task>
     <task id="LOCAL-00001" summary="Initial checkin">
       <created>1543644597672</created>
@@ -205,7 +204,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8566000" />
+    <option name="totallyTimeSpent" value="8882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -343,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/hagemajr/aoc2018/dailyChallenges/20181202.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        <state relative-caret-position="315">
+          <caret line="31" column="46" selection-end-line="55" />
         </state>
       </provider>
     </entry>

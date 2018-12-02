@@ -25,8 +25,9 @@ class Day2(private val fileName: String) {
     fun findPrototypeFabricBoxes(): String? {
         var diff: Int
         var idx = -1
+        val nonMatches = mutableListOf<String>()
         boxIds.forEach { i ->
-            boxIds.filter { it != i }.forEach loop@{ j ->
+            boxIds.filter { it != i }.filter { !nonMatches.contains(i) }.forEach loop@{ j ->
                 diff = 0
                 j.forEachIndexed { index, _ ->
                     if (i[index] != j[index]) {
@@ -38,6 +39,7 @@ class Day2(private val fileName: String) {
                 }
                 return i.filterIndexed { index, _ -> index != idx }
             }
+            nonMatches.add(i)
         }
         return null
     }
